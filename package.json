@@ -1,0 +1,26 @@
+{
+  "name": "miam",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DHello food world!\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/LoujoDum/miamrepo"
+  },
+  "keywords": [
+    "\"\"\u001b[Delectron\"",
+    "\"\"\u001b[Dhomemade\"",
+    "\"\"\u001b[Dlearn",
+    "the",
+    "base\""
+  ],
+  "author": "Louis Dumoulin",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^26.3.0"
+  }
+}
