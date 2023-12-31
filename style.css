@@ -1,0 +1,12 @@
+h1{
+    color:blue;
+}
+.image-container {
+    width: 300px; /* Set width */
+    height: 200px; /* Set height */
+    background-image: url('path/to/your/image.jpg'); /* Replace 'path/to/your/image.jpg' with your image file path */
+    background-size: cover; /* Adjust the image size to cover the entire container */
+    background-position: center; /* Position the image at the center */
+    /* Additional styling if needed */
+  }
+  

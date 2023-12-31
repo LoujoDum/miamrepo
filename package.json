@@ -19,6 +19,6 @@
   "author": "Louis Dumoulin",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^26.3.0"
+    "electron": "^26.6.2"
   }
 }
