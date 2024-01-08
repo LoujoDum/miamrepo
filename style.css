@@ -1,12 +1,89 @@
-h1{
-    color:blue;
-}
-.image-container {
-    width: 300px; /* Set width */
-    height: 200px; /* Set height */
-    background-image: url('path/to/your/image.jpg'); /* Replace 'path/to/your/image.jpg' with your image file path */
-    background-size: cover; /* Adjust the image size to cover the entire container */
-    background-position: center; /* Position the image at the center */
-    /* Additional styling if needed */
+/*
+Tab css
+*/
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tabs label {
+    order: 1;
+    display: block;
+    padding: 1rem 2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background: #944dff;
+    font-weight: bold;
+    transition: background ease 1s;
+  }
+  .tabs .tab {
+    order: 99;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+    background: #fff;
+  }
+  .tabs input[type="radio"] {
+    display: none;
+  }
+  .tabs input[type="radio"]:checked + label {
+    background: #fff;
+    /*border-bottom: 2px solid*/
+  }
+  .tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+  }
+  /*
+  table
+  */
+  .grid-container {
+    display: grid;
+    color: #d3d4d4;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding: 20px;
+  }
+  /*
+  Generic Styling
+  */
+  /* Define the CSS styles for the .img-style class */
+  .title-with-image {
+    display: flex;
+    align-items: center; /* Align items vertically in the flex container */
+  }
+  .logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
+    border: 2px solid #ccc; /* Add a border to the image */
+    margin-right: 20px;
+  }
+  .img-style {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
+    border: 2px solid #ccc; /* Add a border to the image */
+    margin-right: 20px;
+  }
+  h1 {
+    font-size: 2em;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Add some bottom margin */
+    /* Add other styles as needed */
+  }
+  body {
+    background: #eee;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 10vh;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-size: 112%;
   }
   

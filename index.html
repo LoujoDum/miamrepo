@@ -2,20 +2,48 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>Miam</title>
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <div class="image-container"></div>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
-    <p>Il fait faim</p>
-    <p>
-      <img src="/source/miam_logo.jpg" alt="miam_logo"> 
+    <div class="title-with-image">
+    <img src=source/miam_logo.jpg alt="miam_logo" class="logo"> 
+    <h1> Miam App</h1>
+    </div>
+    We are trying to make an app
+    
+    <div class="tabs">
+      <input type="radio" name="tabs" id="tabone" checked="checked">
+      <label for="tabone"> Calendar </label>
+      <div class="tab">
+        <div class="gridContainer"> 
+        <h2>Tab One Content</h2>
+        <p>Lorem ipsum dolor sit amet, </p>
+        </div>
+      </div>
+      
+      
+      
+      <input type="radio" name="tabs" id="tabtwo">
+      <label for="tabtwo"> Grocery List </label>
+      <div class="tab">
+      <h2>Tab two Content</h2>
+      <p>Content of the second tab </p>
+      </div> 
+      <input type="radio" name="tabs" id="tabthree">
+      <label for="tabthree"> 
+        Recipe List</label>
+      <div class="tab">
+      <h2>Tab three Content</h2>
+      <p>Content de la dernière tab! </p>
+      </div> 
+      
+    </div>
+   
+    <p>  
+      <img src=source/miam_logo.jpg alt="miam_img"
+class="img-style"> 
     </p>
   </body>
 </html>
